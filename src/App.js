@@ -1,14 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import Form from "./Form";
 
-function App() {
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello welcome World</h1>
-      </header>
+      <Form />
     </div>
   );
 }
-
-export default App;
