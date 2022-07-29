@@ -1,49 +1,68 @@
-form {
-    text-align: center;
-    margin-top: 10px;
-  }
-  form input {
-    border-radius: 5px;
-    border: 1px blueviolet solid;
-    padding: 10px 30px;
-    box-shadow: 0px 9px 9px gray;
-    font-size: 16px;
-  }
-  form button {
-    color: white;
-    background-color: blueviolet;
-    border: 1px blueviolet solid;
-    border-radius: 5px;
-    margin-left: 5px;
-    padding: 10px 30px;
-    font-size: 16px;
-    box-shadow: 0px 9px 9px gray;
-  }
-  
-  .App {
-    font-family: "Poppins";
-    max-width: 700px;
-    background: linear-gradient(0deg, #fdfcfb 0%, #edc2fe 100%);
-    padding: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0px 9px 9px gray;
-    margin: 20px auto;
-  }
-
-  .Current .firstRow{
-    text-align: center;
-    color: blueviolet;
-  }
-  .secondRow{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    gap: 25px;
-  }
-.CurrentTemp{
-    font-size: 40px;
+h1 {
+  text-align: center;
+  color: blueviolet;
 }
-.degree{
-    position: relative;
-    top: -15px;
+h2 {
+  margin: 0;
+}
+form {
+  text-align: center;
+}
+img {
+  background: rgba(70, 56, 94, 0.2);
+  border-radius: 100%;
+}
+.textBox {
+  padding: 5px 20px;
+  text-align: center;
+  border: 1px solid blueviolet;
+  box-shadow: 0px 9px 9px gray;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.button {
+  margin-left: 10px;
+  padding: 5px 20px;
+  box-shadow: 0px 9px 9px gray;
+  background: blueviolet;
+  color: white;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.App {
+  font-family: sans-serif;
+}
+.degree {
+  font-size: 16px;
+  position: relative;
+  top: -6px;
+}
+.Current {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.currentData {
+  font-size: 24px;
+  border-left: 2px solid gray;
+  padding-left: 20px;
+}
+.CurrentDetails {
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgba(0,0,0,.7)
+}
+.currentDescription:first-letter {
+  text-transform: uppercase;
+}
+.Weather {
+  font-family: "Poppins";
+  max-width: 650px;
+  background: linear-gradient(0deg, #fdfcfb 0%, #edc2fe 100%);
+  padding: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0px 9px 9px gray;
+  margin: 20px auto;
 }
