@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Current({ data }) {
   console.log(data);
   // Set Icon --------------------------------------------

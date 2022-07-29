@@ -6,6 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <Weather />
+      <p><a href="https://github.com/nefbao/react-weather-first">Open-source code</a>, by <a href="https://github.com/nefbao">Nahid Norouzi</a></p>
     </div>
   );
 }
